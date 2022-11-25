@@ -3,17 +3,17 @@ import React from 'react'
 function PointsTable() {
   return (
     <div className="container p-2 mx-auto rounded-md sm:p-4 dark:text-gray-100 dark:bg-gray-900">
-	<h2 className="mb-3 text-2xl font-semibold leading-tight">Standings</h2>
+	{/* <h2 className="mb-3 text-2xl font-semibold leading-tight">Standings</h2> */}
 	<div className="overflow-x-auto">
 		<table className="min-w-full text-xs">
 			<thead className="rounded-t-lg dark:bg-gray-700">
 				<tr className="text-right">
-					<th title="Ranking" className="p-3 text-left">#</th>
-					<th title="Team name" className="p-3 text-left">Team</th>
-					<th title="Wins" className="p-3">W</th>
-					<th title="Losses" className="p-3">L</th>
-					<th title="Win percentage" className="p-3">POINTS</th>
-					<th title="Games behind" className="p-3">NET RR</th>
+					<th title="Ranking" className="p-2 text-left">#</th>
+					<th title="Team name" className="p-2 text-left">Team</th>
+					<th title="Wins" className="p-2">W</th>
+					<th title="Losses" className="p-2">L</th>
+					<th title="Win percentage" className="p-2">POINTS</th>
+					<th title="Games behind" className="p-2">NET RR</th>
 					
 				</tr>
 			</thead>
