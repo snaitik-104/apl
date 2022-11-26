@@ -7,6 +7,7 @@ import Heading from '../Components/Heading'
 import VideoSection from '../Components/VideoSection'
 import Billboards from '../Components/Billboards'
 import Footer from '../Components/Footer'
+import AplStats from '../Components/AplStats'
 
 function Home() {
   return (
@@ -14,6 +15,8 @@ function Home() {
   <Stripe />
   <Navbar/>
   <Slider/>
+  <Heading mainHeading ="APL" subHeading ="Stats"/>
+  <AplStats/>
   <Heading mainHeading ="APL" subHeading ="Teams"/>
   <TeamSlider/>
   <Heading mainHeading ="APL" subHeading ="Billboards"/>
